@@ -14,6 +14,7 @@ scn=Gdk::Screen.default
 #label=Gtk::Label.new("")
 #space=Gtk::Label.new("  ")
 #comma=Gtk::Entry.new
+# Add dynamic username instead of "current account"
 button=Gtk::Button.new(label: "Start Xfce4 Session (Current account)")
 button.signal_connect('clicked') do
   win.destroy
